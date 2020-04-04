@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "My Site",
+    "name": "Site-04-04_1123",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -30,11 +30,10 @@
       "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.3",
     "siteFonts": [],
-    "versionFirst": "4.7.6",
     "uniqCompNum": 6,
-    "versionPublish": "4.12.3",
-    "imageResize": true
+    "versionPublish": "4.12.3"
   },
   "pages": {
     "index.html": {
@@ -48,437 +47,6 @@
       },
       "components": [
         {
-          "_styles": {
-            ".navbar": {
-              "padding": ".5rem 0",
-              "background": "@menuBgColor",
-              "transition": "none",
-              "min-height": "77px"
-            },
-            ".navbar-dropdown.bg-color.transparent.opened": {
-              "background": "@menuBgColor"
-            },
-            "a": {
-              "font-style": "normal"
-            },
-            ".nav-item": {
-              "& span": {
-                "padding-right": "0.4em",
-                "line-height": "0.5em",
-                "vertical-align": "text-bottom",
-                "position": "relative",
-                "text-decoration": "none"
-              },
-              "& a": {
-                "display": "flex",
-                "align-items": "center",
-                "justify-content": "center",
-                "padding": "0.7rem 0 !important",
-                "margin": "0rem .65rem !important"
-              }
-            },
-            ".nav-item:focus, .nav-link:focus": {
-              "outline": "none"
-            },
-            ".btn": {
-              "padding": "0.4rem 1.5rem",
-              ".mbr-iconfont": {
-                "font-size": "1.6rem"
-              },
-              "display": "inline-flex",
-              "align-items": "center"
-            },
-            ".menu-logo": {
-              "margin-right": "auto",
-              ".navbar-brand": {
-                "display": "flex",
-                "margin-left": "5rem",
-                "padding": "0",
-                "transition": "padding .2s",
-                "min-height": "3.8rem",
-                "align-items": "center",
-                ".navbar-caption-wrap": {
-                  "display": "-webkit-flex",
-                  "-webkit-align-items": "center",
-                  "align-items": "center",
-                  "word-break": "break-word",
-                  "min-width": "7rem",
-                  "margin": ".3rem 0",
-                  ".navbar-caption": {
-                    "line-height": "1.2rem !important",
-                    "padding-right": "2rem"
-                  }
-                },
-                ".navbar-logo": {
-                  "font-size": "4rem",
-                  "transition": "font-size 0.25s",
-                  "& img": {
-                    "display": "flex"
-                  },
-                  ".mbr-iconfont": {
-                    "transition": "font-size 0.25s"
-                  }
-                }
-              }
-            },
-            ".navbar-toggleable-sm .navbar-collapse": {
-              "justify-content": "flex-end",
-              "-webkit-justify-content": "flex-end",
-              "padding-right": "5rem",
-              "width": "auto",
-              ".navbar-nav": {
-                "flex-wrap": "wrap",
-                "-webkit-flex-wrap": "wrap",
-                "padding-left": "0",
-                ".nav-item": {
-                  "-webkit-align-self": "center",
-                  "align-self": "center"
-                }
-              },
-              ".navbar-buttons": {
-                "padding-left": "0",
-                "padding-bottom": "0"
-              }
-            },
-            ".dropdown": {
-              ".dropdown-menu": {
-                "background": "@menuBgColor",
-                "display": "none",
-                "position": "absolute",
-                "min-width": "5rem",
-                "padding-top": "1.4rem",
-                "padding-bottom": "1.4rem",
-                "text-align": "left",
-                ".dropdown-item": {
-                  "width": "auto",
-                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
-                  "&::after": {
-                    "right": "0.5rem"
-                  }
-                },
-                ".dropdown-submenu": {
-                  "margin": "0"
-                }
-              },
-              "&.open > .dropdown-menu": {
-                "display": "block"
-              }
-            },
-            ".navbar-toggleable-sm": {
-              "&.opened:after": {
-                "position": "absolute",
-                "width": "100vw",
-                "height": "100vh",
-                "content": "''",
-                "background-color": "rgba(0, 0, 0, 0.1)",
-                "left": "0",
-                "bottom": "0",
-                "transform": "translateY(100%)",
-                "-webkit-transform": "translateY(100%)",
-                "z-index": "1000"
-              }
-            },
-            ".navbar.navbar-short": {
-              "min-height": "60px",
-              "transition": "all .2s",
-              "& .navbar-toggler-right": {
-                "top": "20px"
-              },
-              "& .navbar-logo a": {
-                "font-size": "2.5rem !important",
-                "line-height": "2.5rem",
-                "transition": "font-size 0.25s",
-                "& .mbr-iconfont": {
-                  "font-size": "2.5rem !important"
-                },
-                "& img": {
-                  "height": "3rem !important"
-                }
-              },
-              "& .navbar-brand": {
-                "min-height": "3rem"
-              }
-            },
-            "button.navbar-toggler": {
-              "width": "31px",
-              "height": "18px",
-              "cursor": "pointer",
-              "transition": "all .2s",
-              "top": "1.5rem",
-              "right": "1rem",
-              "&:focus": {
-                "outline": "none"
-              },
-              ".hamburger span": {
-                "position": "absolute",
-                "right": "0",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "top": "0",
-                  "transition": "all .2s"
-                },
-                "&:nth-child(2)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(3)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(4)": {
-                  "top": "16px",
-                  "transition": "all .2s"
-                }
-              }
-            },
-            "nav.opened .hamburger span": {
-              "&:nth-child(1)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              },
-              "&:nth-child(2)": {
-                "-webkit-transform": "rotate(45deg)",
-                "transform": "rotate(45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(3)": {
-                "-webkit-transform": "rotate(-45deg)",
-                "transform": "rotate(-45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(4)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              }
-            },
-            ".collapsed": {
-              "&.navbar-expand": {
-                "flex-direction": "column"
-              },
-              ".btn": {
-                "display": "flex"
-              },
-              ".navbar-collapse": {
-                "display": "none !important",
-                "padding-right": "0 !important",
-                "&.collapsing,&.show": {
-                  "display": "block !important",
-                  ".navbar-nav": {
-                    "display": "block",
-                    "text-align": "center",
-                    ".nav-item": {
-                      "clear": "both",
-                      "& when (@showButtons = false)": {
-                        "&:last-child": {
-                          "margin-bottom": "1rem"
-                        }
-                      }
-                    }
-                  },
-                  ".navbar-buttons": {
-                    "text-align": "center",
-                    "&:last-child": {
-                      "margin-bottom": "1rem"
-                    }
-                  }
-                }
-              },
-              "button.navbar-toggler": {
-                "display": "block"
-              },
-              ".navbar-brand": {
-                "margin-left": "1rem !important"
-              },
-              ".navbar-toggleable-sm": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              ".dropdown": {
-                ".dropdown-menu": {
-                  "width": "100%",
-                  "text-align": "center",
-                  "position": "relative",
-                  "opacity": "0",
-                  "display": "block",
-                  "height": "0",
-                  "visibility": "hidden",
-                  "padding": "0",
-                  "transition-duration": ".5s",
-                  "transition-property": "opacity,padding,height"
-                },
-                "&.open > .dropdown-menu": {
-                  "position": "relative",
-                  "opacity": "1",
-                  "height": "auto",
-                  "padding": "1.4rem 0",
-                  "visibility": "visible"
-                },
-                ".dropdown-submenu": {
-                  "left": "0",
-                  "text-align": "center",
-                  "width": "100%"
-                },
-                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
-                  "margin-top": "0",
-                  "position": "inherit",
-                  "right": "0",
-                  "top": "50%",
-                  "display": "inline-block",
-                  "width": "0",
-                  "height": "0",
-                  "margin-left": ".3em",
-                  "vertical-align": "middle",
-                  "content": "\"\"",
-                  "border-top": ".30em solid",
-                  "border-right": ".30em solid transparent",
-                  "border-left": ".30em solid transparent"
-                }
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".navbar-expand": {
-                "flex-direction": "column"
-              },
-              "img": {
-                "height": "3.8rem !important"
-              },
-              ".btn": {
-                "display": "flex"
-              },
-              "button.navbar-toggler": {
-                "display": "block"
-              },
-              ".navbar-brand": {
-                "margin-left": "1rem !important"
-              },
-              ".navbar-toggleable-sm": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              ".navbar-collapse": {
-                "display": "none !important",
-                "padding-right": "0 !important",
-                "&.collapsing,&.show": {
-                  "display": "block !important",
-                  ".navbar-nav": {
-                    "display": "block",
-                    "text-align": "center",
-                    ".nav-item": {
-                      "clear": "both",
-                      "& when (@showButtons = false)": {
-                        "&:last-child": {
-                          "margin-bottom": "1rem"
-                        }
-                      }
-                    }
-                  },
-                  ".navbar-buttons": {
-                    "text-align": "center",
-                    "&:last-child": {
-                      "margin-bottom": "1rem"
-                    }
-                  }
-                }
-              },
-              ".dropdown": {
-                ".dropdown-menu": {
-                  "width": "100%",
-                  "text-align": "center",
-                  "position": "relative",
-                  "opacity": "0",
-                  "display": "block",
-                  "height": "0",
-                  "visibility": "hidden",
-                  "padding": "0",
-                  "transition-duration": ".5s",
-                  "transition-property": "opacity,padding,height"
-                },
-                "&.open > .dropdown-menu": {
-                  "position": "relative",
-                  "opacity": "1",
-                  "height": "auto",
-                  "padding": "1.4rem 0",
-                  "visibility": "visible"
-                },
-                ".dropdown-submenu": {
-                  "left": "0",
-                  "text-align": "center",
-                  "width": "100%"
-                },
-                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
-                  "margin-top": "0",
-                  "position": "inherit",
-                  "right": "0",
-                  "top": "50%",
-                  "display": "inline-block",
-                  "width": "0",
-                  "height": "0",
-                  "margin-left": ".3em",
-                  "vertical-align": "middle",
-                  "content": "\"\"",
-                  "border-top": ".30em solid",
-                  "border-right": ".30em solid transparent",
-                  "border-left": ".30em solid transparent"
-                }
-              }
-            },
-            "@media (min-width: 767px)": {
-              ".menu-logo": {
-                "flex-shrink": "0"
-              }
-            },
-            ".navbar-collapse": {
-              "flex-basis": "auto"
-            },
-            ".nav-link:hover, .dropdown-item:hover": {
-              "color": "@itemsHoverColor !important"
-            }
-          },
-          "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://mobirise.com\">\n                         <img src=\"@PROJECT_PATH@/assets/images/wechatimg1096-122x81.jpeg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">Yutian Gao</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-plus mbr-iconfont mbr-iconfont-btn\"></span>动态</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        <span class=\"mbri-search mbr-iconfont mbr-iconfont-btn\"></span>个人介绍 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-success\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\"><span class=\"mbri-hearth mbr-iconfont mbr-iconfont-btn\"></span></a></div>\n        </div>\n    </nav>\n</section>",
-          "_cid": "qTkzRZLJNu",
-          "_anchor": "menu1-0",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#ffffff",
-              "text-align": "center"
-            }
-          },
-          "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/-1620x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#767676\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">&nbsp;NICE TO MEET YOU</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    欢迎来到我的个人主页。<br>我是一名来自北京的大三学生，现就读于南京大学新闻传播学院。<br>喜欢写作，摄影，视频剪辑。<br>在这里，你可以了解我的平时生活，关注我的学习生活动态。<br>\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-success-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qTkA127IK8",
-          "_anchor": "header2-1",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
@@ -491,7 +59,8 @@
             },
             ".testimonial-text": {
               "font-style": "italic",
-              "font-weight": "300"
+              "font-weight": "300",
+              "text-align": "left"
             },
             ".mbr-author-name": {
               "font-weight": "bold"
@@ -512,116 +81,111 @@
             }
           },
           "_name": "testimonials2",
-          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/wechatimg1096-1162x775.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\">\n                       1999.11.9<br>Beijing<br><br></p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">南京大学新闻传播学院</p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\">17级传媒实验班<br>NJU核真录成员（公众号：njufactcheck）<br>作品：《2018-2019全国猪肉政策全记录》、《全美最年轻花滑冠军刘美贤，背后当真有恶魔在微笑？》、《网约打车变难了吗？查了200多个城市的细则后发现了这些》、《谁动了我的学籍？堂姐顶替学籍事件四大疑点核查》、《中医“海外朋友圈扩大——中国针灸纳入美国医保？”》、《武汉成最尴尬大学城，是秉笔直书还是危言耸听？》、《“40万天价账单”价位产生合理吗？》等。<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rU1uCqYaIE",
+          "_customHTML": "<section class=\"testimonials2\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"130\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n          <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n          <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters --> \n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure pr-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"@PROJECT_PATH@/assets/images/d1aa23631413c467870191d8d1d956a0.jpg\" alt title>\n            </div>\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                    <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".testimonial-text\"><br>\n<br>引\n<br>夕阳为什么是红的？\n<br>因为太阳在视线范围内最远的距离，大气滤尽了大多色光，唯有红，轰轰烈烈地从扑面而来，照亮最后一刻的绚烂。\n<br>艾瑞克眼中的鲁迪，亦是如此。\n<br>霓虹灯下，少年的头发像火红的浪，像血红的城市上空，像TWIN PEAKS的夕阳。他穿过杂而有序的人群中，总是率先进入艾瑞克的视线。</p>\n                    <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\">\n                       《夕阳小丑》</p>\n                    <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\"></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rV9Nl9B3c6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
-          "_anchor": "testimonials2-5"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".content": {
-              "@media (max-width: 767px)": {
-                "text-align": "center",
-                "> div:not(:last-child)": {
-                  "margin-bottom": "2rem"
-                }
-              }
-            },
-            ".media-wrap": {
-              "@media (max-width: 767px)": {
-                "margin-bottom": "1rem"
-              },
-              ".mbr-iconfont-logo": {
-                "font-size": "7.5rem",
-                "color": "#f36"
-              },
-              "img": {
-                "height": "6rem"
-              }
-            },
-            ".footer-lower": {
-              ".copyright": {
-                "@media (max-width: 767px)": {
-                  "margin-bottom": "1rem",
-                  "text-align": "center"
-                }
-              },
-              "hr": {
-                "margin": "1rem 0",
-                "border-color": "#fff",
-                "opacity": ".05"
-              },
-              ".social-list": {
-                "padding-left": "0",
-                "margin-bottom": "0",
-                "list-style": "none",
-                "display": "flex",
-                "flex-wrap": "wrap",
-                "justify-content": "flex-end",
-                "-webkit-justify-content": "flex-end",
-                ".mbr-iconfont-social": {
-                  "font-size": "1.3rem",
-                  "color": "#fff"
-                },
-                ".soc-item": {
-                  "margin": "0 .5rem"
-                },
-                "a": {
-                  "margin": "0",
-                  "opacity": ".5",
-                  "-webkit-transition": ".2s linear",
-                  "transition": ".2s linear",
-                  "&:hover": {
-                    "opacity": "1"
-                  }
-                },
-                "@media (max-width: 767px)": {
-                  "justify-content": "center",
-                  "-webkit-justify-content": "center"
-                }
-              }
-            }
-          },
-          "_name": "footer1",
-          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"https://mobirise.com/\">\n                        <img src=\"@PROJECT_PATH@/assets/images/wechatimg1095-288x288.jpg\" alt=\"Mobirise\" title>\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Address\n                </h5>\n                <p class=\"mbr-text\">江苏省南京市栖霞区仙林大道163号南京大学</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Contacts\n                </h5>\n                <p class=\"mbr-text\">\n                    Email: 1074246707@qq.com &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>Phone: 18852059593 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br><br></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Links\n                </h5>\n                <p class=\"mbr-text\">我的简书<br><br></p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2017 Mobirise - All Rights Reserved\n                    </p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-wechat socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-qq socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qTkAaeaxX5",
-          "_anchor": "footer1-2",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_anchor": "testimonials2-0"
         },
         {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            ".mbr-text": {
+              "color": "#767676"
             }
           },
-          "_name": "footer6",
-          "_customHTML": "<section group=\"Footers\" global=\"\" once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2019 Mobirise - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>\n",
-          "_cid": "rU1uxP38O8",
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>第一章 湖畔的红发\n</b></p><p><b><br></b></p><p><b>布西发拉斯，加州南湾的一座私立高校，因校徽是一个巨大的牛首，当地人称之为“牛校”。牛校正如一头雄伟的公牛，有着英雄一般的历史。校园建在八千英亩的赛马场上，二战那几年，共往战场上送过一万多名军事学员。\n</b></p><p><b>九月一日，新生艾瑞克·道森被安排在牛校那座著名的百年铜牛雕像前，嘴角一扯，老妈的拍立得便及时捕捉到了那个牙科广告一般的露齿假笑。</b></p><p><b>照片很快洗了出来，道森女士在空中甩了甩，半摘下墨镜细细检阅了一番：一个傻大个子，黄色T恤衫，破破烂烂的重水洗牛仔裤，毛茸茸的亚麻色头发故意搞得很乱，像个鸡窝，脸很臭屁地仰着，跟所有二十岁的臭小子一样，戴上墨镜，插上耳机，就仿佛世界是自己的一样。\n</b></p><p><b>“还不错吗？”\n</b></p><p><b>见道森女士饶有兴趣地欣赏着那张照片，艾瑞克插着腰，俯下身，下巴擦过她刚在发廊做的金黄色卷发，粗粗看了一眼。\n</b></p><p><b>“真他娘的帅。走吧，咱进去吧？”\n</b></p><p><b>“不许爆粗口。”\n</b></p><p><b>道森女士左手竖起一根手指，警告他，右手满意地抓着那张照片，拍立得挂在脖子上。她夹着小挎包，开心地扭搭着臀部，像是自己又重返青春一般。\n</b></p><p><b>艾瑞克撇了撇嘴，抄起地上笨重的网球包扛在肩上，一手抽出拉杆箱的把手，闷着头跟上。布西发拉斯校园满满的西班牙风，清一色的黄砖红瓦传道式教学楼，随处可见的拱廊，除此之外，和城里的大学没什么两样。棕榈大道上有跑步运动的辣妹，草地路灯下抱着笔记本电脑敲作业的高年级学生，球场上躁动的年轻人脚下纷争着足球，小情侣坐在操场上喝啤酒......\n</b></p><p><b>艾瑞克错过了申请宿舍的最佳时机，那段日子的记忆像断片一样模糊了：大概是跟狐朋狗友在酒吧里鬼混，把卫生纸缠在身上，要么就是赖在基友家里通宵达旦地打电游、看黄片。应该是的。通知书的到来，意味着他的好日子到头了。\n</b></p><p><b>“买辆自行车吧，艾瑞克，你的宿舍太远了。”\n</b></p><p><b>道森女士果然又借机抱怨他上一个浑噩的暑假。\n</b></p><p><b>确实，那天他从被窝中爬起，揉揉宿醉的额头打开宿舍申请页面时，上面只剩E区的一间四人公寓，公共配套设施还要跟隔壁的V区共用。\n</b></p><p><b>“你先去行李，我要拍会儿照，哦，真是太美了！等你收拾完了，宝贝，咱们找个山脚下的漂亮餐厅好好吃上一顿。”道森女士及时脱身而去，走前还跟他比了个“打电话”的手势。\n</b></p><p><b>艾瑞克叹了口气，又独自一人开始了前往宿舍楼的漫长跋涉。\n</b></p><p><b>经过学校中心时，他被一簇四楼小别墅吸引了目光。M区宿舍区，供法学院的研究生居住，需要一月一千七百美元的房费，跟学校其他所有宿舍都不一样，整栋楼现代化酒店式的装潢，墙被刷成带有灰调的莫兰迪粉，像多云天气时日落的颜色，砖红色尖顶的阁楼像旧式的象牙塔，大小露台上却聚集着谈天的年轻男女，他们大多穿着体面。据说这里的学生都有独立单间、私人浴室，全套厨房和高级工作室。\n</b></p><p><b>艾瑞克嫉妒的眼神像加州九月的阳光一样火辣，恨不得用放大镜盯着M区里面高级的陈设，让焦点的高温烧掉这座房子。</b></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rV9OpOYZvj",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "footers",
+          "_global": false,
+          "_once": false,
           "_params": {},
-          "_anchor": "footer6-4"
+          "_anchor": "content1-1"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>E区在一座不高的小山脚下，像是森林小木屋，但现实不如童话般美好。\n</b></p><p><b>他将钥匙转开宿舍门的锁时，竟发现门从里面被顶住了。他使劲推了推门，最终换为敲门。不一会儿，一个矮个子出现在门缝中。\n</b></p><p><b>“嘿，新来的？”\n</b></p><p><b>这个黑色卷发的墨西哥人身上一股番茄酱的味道，穿着麦当劳大叔同款的条纹T，他俯下身子在门下搞什么小动作，随着“嘶”一声重物擦着地面挪开的声音，艾瑞克脚顶着的门瞬间松缓，门“吱呀”一声打开了。\n</b></p><p><b>他眉毛皱成一团，跟那些满地的纸团一般。\n</b></p><p><b>“我是安德烈斯，艺术系一年级。”\n</b></p><p><b>安德烈斯用纸擦了擦手，向艾瑞克伸出友好的、薯条加番茄酱味道的手掌。\n</b></p><p><b>艾瑞克捏了捏他的指尖，打了招呼，然后继续观察起自己的床铺。E区的四人公寓，每人配有独立的床和写字台，标准配置是一套天蓝色床品。艾瑞克将球包扔在床上，箱子暂时推到了床下，以免占用了本就剩余不多的空间。\n</b></p><p><b>他略略环顾了下四周，另一个靠窗的铺子还空着，剩下两个，铺了粉黄相间的条纹床单的是安德烈斯的床，还有一个略微整齐些的床铺用的是灰色系的床品，桌上堆积了一摞书。\n</b></p><p><b>“哦，那是奥斯汀，是个法学生。”安德烈斯瞥了眼刚在挡住门口的纸箱，“喏，那堆他刚搬回来的书，“刚放下，他女朋友就喊他去吃饭了。”\n</b></p><p><b>艾瑞克从裤兜里掏出手机，给道森女士通了电话。她在他宿舍南面的山上，订了一家阳光充沛的玻璃房餐厅，已经点了咖啡，正等着他过来。刚挂断，安德烈斯就一脸八卦地凑了过来。\n</b></p><p><b>“女朋友？”\n</b></p><p><b>“是我妈......”\n</b></p><p><b>“噢太不幸了，你还是个宝宝。”\n</b></p><p><b>安德烈斯皱着眉，上下唇瘪得像鸭子一样，故作一副很怜悯的样子。艾瑞克无法解释。只有安德烈斯跟着道森女士生活上二十年，他才能理解，有一个童心未泯、跟着他来学校报道只为体验年轻人生活的老妈是种什么感受。\n</b></p><p><b>下午天气渐热，他脱掉牛仔裤，从球包里拽出一条运动短裤，想着吃完饭正好去打球，便不用像个巨型洋娃娃一样被道森女士带着一路拍照了。\n</b></p><p><b>真是个好主意。\n</b></p><p><b>艾瑞克重燃斗志，戴上耳机，沿着没有砖石只有落叶的小路，一路向山上跑去。</b></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rV9OqxXc2V",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-2"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><div><b>这座小山包没什么故事，不是市辖的森林公园，各种亚热带绿植杂乱无章地混在一起，南麓却有一片著名的薰衣草，学生们叫它“情人坡”\n</b></div><div><b><br></b></div><div><b>林间小道绿荫正浓，清凉的风将他的衣服向后吹起，贴着急促浮动的胸膛。偶尔有一两辆小轿车迎面驶过。直到半山腰，他看见一座小巧的玻璃房咖啡厅。\n</b></div><div><b><br></b></div><div><b>“快坐下，我点了你最爱吃的菠菜牛脸肉。”\n</b></div><div><br></div><div><b>艾瑞克埋头切着牛肉，悠然望了眼窗外，自己仿佛坐在一颗钻石中，阳光毫不吝啬自己的光热，将这里点亮。没有绿木的遮挡，木质台阶下是一片花海。\n</b><b style=\"font-size: 1rem;\">他从玻璃的倒影里看到一片耀眼的红。像湖泊倒映着红枫的影子。冥冥中回首，便看到了一个人。&nbsp;</b></div><div><b style=\"font-size: 1rem;\"><br></b></div><div><b>那个人染了一头叫人瞩目的血红色的中长发，额前的碎发微微遮住眼睛，更穿着一身黑T恤，显得袒露出的肌肤更白，手腕上戴着很多手链，右手食指上有一枚翡翠石的白金戒指。他个子很高很高，进入店内给人一种凌人的压迫感。\n</b></div><div><b><br></b></div><div><b>而他身边却跟着一个看着其貌不扬，足有二百来斤的胖男孩。一前一后走着，像是一个吸血鬼伯爵牵着一条斗牛犬，两人在孔雀蓝色的沙发卡座处停住脚步。\n</b></div><div><b><br></b></div><div><b>落座后，黑衣男生让那小胖子翻看菜单，他自己则十指交叉，静静等候着。\n</b></div><div><b><br></b></div><div><b>一看就是很能装模作样的臭小子。\n</b></div><div><b><br></b></div><div><b>艾瑞克盯着他的背影看了一阵，就回过头继续享用自己的牛肉。谁知，道森女士突然拉住他的手，激动道：“宝贝，那个男孩也和你在一所学校！”\n</b></div><div><b><br></b></div><div><b>“哦，是吗？”\n</b></div><div><b><br></b></div><div><b>“你看，我还拍到了他！”\n</b></div><div><b><br></b></div><div><b>道森女士从挎包里一堆相片里迅速挑出了一张，艾瑞克接过来看看。\n</b><b style=\"font-size: 1rem;\">画面里，布西发拉斯那座巨大的湖美得叫人叹息，成群的天鹅栖息在湖畔，飞鸟掠过薄云。照片的右下侧误闯入一张脸，尽管镜头把他的面容扭曲了，艾瑞克通过那一头血红的发认了出来。他像是从湖边迎面走来，火红的头发在阳光下泛出血橙一般的浅色。&nbsp;</b></div><div><b style=\"font-size: 1rem;\"><br></b></div><div><b>艾瑞克放下照片后，又不禁回过去看了那人一眼。红发男生正在和小胖子聊天，从小胖子眉飞色舞的神情也能猜到，是一场很愉快惬意的交谈。\n</b></div><div><b><br></b></div><div><b>“看着就像个小混混。”艾瑞克嘟囔道。\n</b></div><div><b><br></b></div><div><b>吃了牛脸肉，他又点了橙子芝士蛋糕，喝了几口苦柠檬汽水，突然尿意袭来。他拿餐巾擦了擦嘴，起身去卫生间，经过孔雀蓝卡座时偶然发现红发男生也不在座位上，顿时心中有种不祥的预感。\n</b></div><div><b><br></b></div><div><b>咖啡厅的厕所在一条幽暗的走道尽头，走廊里唯有复古式壁灯发着昏黄暗淡的光。\n</b></div><div><b><br></b></div><div><b>艾瑞克刚要推门，一股子向外的力便朝他闷来。他被挤得倒退了两步，后背贴着硅藻泥墙壁，墙面粗糙的纹理划痛了他的手。\n</b></div><div><b><br></b></div><div><b>一个接近两米的人从门后走出，红发蓬松而自然，像是刚洗完头，没有抹发胶，一半耷拉下来。\n</b></div><div><b>朦胧的光像夜晚路灯般柔和了脸的棱角，但仍然能看出他有线条很漂亮利落的下颌，欧亚混血的五官。浓眉碧眼，更确切地说，他像一只黑猫，眼睛是祖母绿色。\n</b></div><div><b><br></b></div><div><b>而从鲁迪的视角看来，他刚从厕所中出来，便看到一个黄衣男生像壁虎一样贴在墙壁上，微微蹙着眉，可能是被他推门时撞着了，此时不知是埋怨还是愤怒地看着他，总之不是十分友善的样子。\n</b></div><div><b><br></b></div><div><b>“抱歉。”\n</b></div><div><b><br></b></div><div><b>他轻轻开口，然后错开身，让他过去。\n</b></div><div><b><br></b></div><div><b>艾瑞克见他装得很绅士的样子，也没说什么，匆匆进了厕所，松缓了裤袋，舒服地长吁了一口气。\n</b></div><div><b><br></b></div><div><b>经历了厕所的狭路相逢，艾瑞克不自觉地记住了这个看起来有点奇怪但并不讨厌的家伙。他和老妈用完餐准备离去时，那一桌才刚吃完前菜。也难怪，那个红衣男生带来的伙伴看着像是能一口吞下三头牛的样子。</b></div></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rV9OqJSNtJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-3"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>送走了道森女士，艾瑞克终于可以松下一口气。他洗了一次舒服的热水澡，然后换上睡衣躺进柔软的被子里。\n</b></p><p><b>无意间，向对面那张床瞥了一眼。那张床空荡荡的，仍铺着标配的天蓝色床品。\n</b></p><p><b>晚些时候，奥斯汀回来了，是那个身体健壮，但头脑并不简单的法学生。他将书一本本地擦拭干净，塞进书架里。艾瑞克与他简单寒暄了几句，就从枕头下掏出一摞厚厚的照片——老妈走之前送给他的“入学礼物”——是自他高中毕业以来，她给她拍的所有照片。\n</b></p><p><b>有一张拍摄于高中毕业典礼那天，他把好哥们小J拦腰抱起，抛在空中，小J吓得五官都扭曲了，他却哈哈大笑像个变态一样。照片虽糊了，但两个疯子尖叫声和大笑声，似乎还真实地回荡在耳边。艾瑞克多看了一眼，嘴角不禁上扬起来。\n</b></p><p><b>还有夏天刚开始时，他在坎克恩海滩，穿着泳裤打水枪，像个没长大的大男孩。那时他的身材像杂志上的健美明星......瞧那古铜色的肤色，健硕的胸膛，粗壮的手臂，一头血气方刚的小公牛一样.....\n</b></p><p><b>艾瑞克心痒起来，不禁将手伸到睡衣底下，却只摸到平坦的一块——颓废了一个暑假，居然连肌肉都萎缩了，他顿时有些失落。\n</b></p><p><b>照片一张张地翻看着，温暖的感觉袭上心头。从前只觉得老妈拿他练习摄影很烦，如今倒觉得这些记忆若没有保存在相片里，估计他一场宿醉就能被忘得干净。\n</b></p><p><b>这时，艾瑞克又翻到了那张布西发拉斯湖畔，这张照片里并没有他，却被夹在了其中，不知是不是老妈搞错了。艾瑞克眉头皱起，却不禁又盯着那头红发看了一会儿。</b></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rV9Pxk0kV6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-4"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><b>新生报到的最后一天，艾瑞克去镇上又采购了些生活用品，刚一进宿舍，就看见自己对面的床铺下突然多了一个人。</b></p><p><b>黑色T恤并没有让他的身躯显得更瘦，他浑身上下白花花的肉像是要呼之欲出，穿着花色大裤衩，趿拉着人字拖，看见艾瑞克进来时，放下了手里的一张照片。</b></p><p><b>艾瑞克惊呆了，这辈子他没想到，自己的对床室友，会是在餐厅那个能一口三头牛的小胖子！</b></p><p><b>胖男生的表情同样很诡异，像是盯着一个行为古怪的人一样。</b></p><p><b>“伙计，你终于来了。”艾瑞克示好地伸出手，想跟他打个招呼。</b></p><p><b>谁知胖男生刚和他握完手后，就从桌上捡起了一张照片摆在他面前。</b></p><p><b>“是你的吗？”</b></p><p><b>艾瑞克看到照片上的湖泊和红发男生后，顿时浑身发烫，脸不受控制地红得像个番茄。</b></p><p><b>“怎.....怎么在你这儿？”</b></p><p><b>“可能是从你床上掉下来的。”</b></p><p><b>彼得将照片还给他，然后就不再说话，继续收拾自己的桌面。</b></p><p><b>艾瑞克此地无银三百两地试探道：“当时湖上风景挺好的，我随手一拍。”</b></p><p><b>“是啊，那座湖很漂亮。日落的时候，湖面都是金色的。”</b></p><p><b>“......”艾瑞克不确定彼得是否在餐厅还对他有印象，继续试探道，“这个.....这个男生，你认识么？”</b></p><p><b>他手指指着红发男生，彼得盯着照片看了一会儿，缓缓道：“认识啊，是鲁迪。”</b></p><p><b>“噢......居然无意中拍到了你朋友，真是巧啊。”</b></p><p><b>艾瑞克尴尬地笑了两声。</b></p><p><b>“不是朋友。”</b></p><p><b>彼得却抬起眼，很认真地纠正了一个词,”是男朋友。”</b></p><p><b>“？？？？？？？？？？”</b></p><p><b>艾瑞克突然像是偷窥了人家的隐私，又被正巧捉住现行，既震惊又惶恐。</b></p><p><b>然而彼得只是冲他友好地笑了笑：“我和鲁迪·菲尼克斯交往两年了。那张照片拍的很好看，可以送给我吗？”</b></p><p><b><br></b></p><p><b><br></b></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rV9PxCuHsj",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-5"
         }
       ]
     }
