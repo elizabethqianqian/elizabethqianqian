@@ -1908,7 +1908,7 @@ section.lazy-placeholder:after {
   text-align: left;
 }
 .cid-rVW32SCskA {
-  background-image: url("../../../assets/images/2020-04-12-17-29.png");
+  background-image: url("../../../assets/images/2020-04-13-10.png");
 }
 .cid-rVV6inLdcp {
   padding-top: 30px;
@@ -2146,7 +2146,7 @@ section.lazy-placeholder:after {
   align-items: center;
 }
 .cid-rVW6lx72Mi {
-  padding-top: 90px;
+  padding-top: 0px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
@@ -2234,72 +2234,8 @@ section.lazy-placeholder:after {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
-.cid-rVVXeA6OVd {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
-}
-.cid-rVVXeA6OVd .mbr-section-btn > * {
-  margin: 0;
-}
-.cid-rVVXeA6OVd h4 {
-  font-weight: 500;
-}
-.cid-rVVXeA6OVd p {
-  color: #232323;
-}
-.cid-rVVXeA6OVd .aside-content {
-  -webkit-flex-basis: 100%;
-  flex-basis: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.cid-rVVXeA6OVd .block-content {
-  display: -webkit-flex;
-  flex-direction: column;
-  -webkit-flex-direction: column;
-  word-break: break-word;
-}
-.cid-rVVXeA6OVd .media {
-  margin: initial;
-  align-items: center;
-  -webkit-align-items: center;
-}
-.cid-rVVXeA6OVd .mbr-figure {
-  align-self: flex-start;
-  -webkit-align-self: flex-start;
-  -webkit-flex-shrink: 0;
-  flex-shrink: 0;
-}
-.cid-rVVXeA6OVd .card-img {
-  padding-right: 2rem;
-  width: auto;
-}
-.cid-rVVXeA6OVd .card-img span {
-  font-size: 72px;
-  color: #707070;
-}
-@media (min-width: 992px) {
-  .cid-rVVXeA6OVd .mbr-figure {
-    padding-right: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rVVXeA6OVd .mbr-figure {
-    padding-right: 0;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
-  }
-}
-@media (max-width: 300px) {
-  .cid-rVVXeA6OVd .card-img span {
-    font-size: 40px !important;
-  }
-}
-.cid-rVVXeA6OVd .cost {
-  text-decoration: line-through;
-  color: #767676;
+.cid-rVW6lx72Mi P {
+  text-align: left;
 }
 .cid-rVVaS8b0kq {
   padding-top: 90px;
@@ -2492,7 +2428,7 @@ section.lazy-placeholder:after {
 }
 .cid-rVVjXlWV4D .section-text {
   padding: 2rem 0;
-  text-align: right;
+  text-align: left;
   color: #232323;
 }
 .cid-rVVjXlWV4D .inner-container {
